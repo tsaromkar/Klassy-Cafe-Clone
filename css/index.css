@@ -18,6 +18,16 @@ ul li {
   margin-left: 1.85rem;
   font-size: 1rem;
   letter-spacing: 1.4px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+ul li:first-child {
+  color: rgb(235, 71, 71);
+}
+
+ul li:hover {
+  color: rgb(235, 71, 71);
 }
 
 .home {

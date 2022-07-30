@@ -1,0 +1,557 @@
+header {
+  padding: 1.40rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 69.9rem;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 1.85rem;
+  font-size: 1rem;
+  letter-spacing: 1.4px;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+.home section:first-child {
+  position: relative;
+}
+
+.home section:first-child img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home section:first-child section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home section:first-child section h4 {
+  background: none;
+  color: white;
+  font-size: 3.5rem;
+  font-family: cursive;
+  margin-bottom: 6px;
+}
+
+.home section:first-child section h6 {
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 4.7px;
+  margin-bottom: 1.5rem;
+}
+
+.home section:first-child section button {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 0.9rem 1.6rem;
+  color: rgb(235, 71, 71);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.home section:first-child section button:hover {
+  background-color: rgb(244, 234, 234);
+}
+
+.home > section:last-child {
+  overflow: hidden;
+}
+
+.home > section:last-child img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-us {
+  max-width: 70rem;
+  display: grid;
+  grid-template-columns: 1fr 3.8rem 1fr;
+  margin: auto;
+  padding: 7.5rem 2rem;
+}
+
+.contact-us section:first-child hr,
+.menu section:first-child hr,
+.about-us section:first-child hr {
+  width: 1.9rem;
+  display: inline-block;
+  border: 1px solid rgb(235, 71, 71);
+  vertical-align: middle;
+}
+
+.contact-us section:first-child > div p,
+.menu section:first-child > div p,
+.about-us section:first-child > div p {
+  display: inline-block;
+  font-size: 0.8rem;
+  letter-spacing: 1.6px;
+  margin-left: 10px;
+  color: rgb(235, 71, 71);
+}
+
+.contact-us section:first-child > h1,
+.menu section:first-child > h1,
+.about-us section:first-child > h1 {
+  margin-top: 1.5rem;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
+}
+
+.contact-us section:first-child > p,
+.about-us section:first-child > p {
+  margin-top: 1.8rem;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding-right: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.about-us section:first-child > section {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 160px 160px 160px;
+  gap: 2rem;
+}
+
+.about-us section:first-child > section img {
+  width: 160px;
+}
+
+.about-us > section:last-child img {
+  height: 30rem;
+}
+
+.menu {
+  padding: 8rem 1rem;
+  background-color: rgb(250, 245, 245);
+}
+
+.menu section:first-child {
+  width: 70rem;
+  margin: auto;
+}
+
+.menu section:last-child {
+  margin-top: 4.8rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.menu-item {
+  border-radius: 3px;
+  max-width: 20.35rem;
+  max-height: 25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-item img {
+  width: 100%;
+  max-width: 20.35rem;
+  max-height: 25rem;
+  border-radius: 3px;
+}
+
+.pricing {
+  position: absolute;
+  top: 0;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 3px;
+  background-color: rgb(247, 76, 76);
+}
+
+.pricing h3 {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.item-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3.5rem;
+  border-radius: 3px;
+  background-color: rgb(247, 76, 76);
+}
+
+.item-name h3 {
+  display: inline-block;
+  color: white;
+  font-family: cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.klassy-week,
+.chefs {
+  padding: 8rem 0;
+}
+
+.klassy-week section:first-child,
+.chefs section:first-child {
+  max-width: 70rem;
+  margin: auto;
+}
+
+.klassy-week section:first-child p, 
+.chefs section:first-child p {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 1.6px;
+  margin-left: 10px;
+  color: rgb(235, 71, 71);
+}
+
+.klassy-week section:first-child > h1,
+.chefs section:first-child > h1 {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
+}
+
+.chefs section:last-child {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.chef-info {
+  border: 1px solid rgb(178, 175, 175);
+  padding: 0.34rem;
+  max-width: 21.1rem;
+}
+
+.chef-info img {
+  max-width: 21.1rem;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.chef-info h1 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.chef-info p {
+  margin-top: 0.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-us {
+  padding: 7.1rem 0;
+  background-image: url('../images/reservation-bg.jpg');
+  background-size: cover;
+}
+
+.contact-us > div {
+  max-width: 70rem;
+  display: grid;
+  grid-template-columns: 1fr 3.8rem 1fr;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.contact-us section:first-child {
+  margin-top: 4rem;
+}
+
+.contact-us section:first-child > p, .contact-us section:first-child > h1 {
+  color: white;
+}
+
+.reservation-form {
+  background-color: white;
+  border-radius: 6px;
+  padding: 2.8rem 2rem;
+}
+
+.reservation-form h1 {
+  color: black;
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+form div {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.8rem;
+  row-gap: 0.9rem;
+}
+
+textarea, input {
+  padding: 0.9rem 1.2rem;
+  border: 1px solid rgb(226, 224, 224);
+  border-radius: 5px;
+}
+
+textarea::placeholder, input::placeholder {
+  font-size: 0.9rem; 
+  color: rgb(66, 64, 64);
+  letter-spacing: 0.5px;
+}
+
+textarea {
+  margin-top: 0.9rem;
+  width: 100%;
+  resize: none;
+}
+
+.reservation-form button {
+  width: 100%;
+  margin-top: 0.9rem;
+  background-color:rgb(235, 71, 71);
+  border: none;
+  border-radius: 3px;
+  padding: 0.9rem 1.6rem;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.contact-us section:first-child hr {
+  border: 0.1px solid rgb(255, 255, 255);
+}
+
+.contact-us section:first-child > div p {
+  color: rgb(255, 255, 255);
+  letter-spacing: 2.5px;
+  font-size: 0.9rem;
+}
+
+.contact-us section:first-child > p {
+  color: rgb(200, 196, 196);
+}
+
+.phone {
+  display: flex;
+}
+
+.phone div {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  margin-top: 3rem;
+  padding: 3.5rem 2rem 1.5rem;
+}
+
+.phone :last-child {
+  margin-left: 2rem;
+}
+
+.phone h1 {
+  margin: 0 !important;
+  font-size: 1.2rem;
+}
+
+.phone p {
+  margin-left: 0 !important;
+  margin-top: 0.8rem !important;
+  font-size: 0.9rem;
+  color: rgb(71, 69, 69);
+  text-align: center;
+}
+
+.klassy-week {
+  max-width: 70rem;
+  margin: auto;
+}
+
+.tab-icons {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tab-icons :not(:first-child) p {
+  margin-left: 0 !important;
+  margin-top: 0.8rem !important;
+  font-size: 0.85rem !important;
+  color: rgb(71, 69, 69) !important;
+}
+
+.tab-icons :first-child p {
+  margin-top: 0.8rem !important;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.klassy-week section section {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.5rem;
+  padding: 0 2rem;
+}
+
+.items-mid {
+  margin: 0 1rem;
+  flex: 1;
+}
+
+.items-mid p {
+  margin-left: 0 !important;
+  margin-top: 0.8rem !important;
+  font-size: 0.85rem !important;
+  color: rgb(71, 69, 69) !important;
+  text-align: left !important;
+}
+
+.items .pricing {
+  position: relative;
+  top: 0;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 3px;
+  background-color: rgb(247, 76, 76);
+}
+
+.items .pricing h3 {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  padding: 4rem 0;
+  background-color: rgb(247, 76, 76);
+}
+
+footer > div {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-width: 70rem;
+  display: flex;
+  padding: 0 2rem;
+}
+
+.footer-mid {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-left,
+.footer-right {
+  color: rgb(249, 219, 219);
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.footer-left p:last-child,
+.footer-right p:last-child {
+  margin-top: 0.6rem;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+@media (max-width: 70rem) {
+  .home {
+    grid-template-columns: 100%;
+    grid-template-rows: 35% 65%;
+  }
+  .about-us {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 3.8rem 1fr;
+    padding: 7.5rem 2rem;
+  }
+  .menu section:last-child {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 60rem) {
+  .phone {
+    flex-direction: column;
+    align-items: center;
+  }
+  .phone div {
+    width: 100%;
+  }
+  .phone :last-child {
+    margin-left: 0;
+  }
+  .phone h1 {
+    text-align: center;
+  }
+  .contact-us > div {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 3.8rem 1fr;
+  }
+  .klassy-week section section {
+    grid-template-columns: 100%;
+  }
+  .items {
+    max-width: 40rem;
+    margin: auto;
+  }
+}
+
+@media (max-width: 50rem) {
+  .menu section:last-child {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .chefs section:last-child {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer > div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-mid {
+    margin: 2rem 0;
+  }
+  .footer-left,
+  .footer-right {
+    text-align: center;
+  }
+}
